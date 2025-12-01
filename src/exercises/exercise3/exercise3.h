@@ -1,4 +1,3 @@
-#include <cstdint>
 #include <stdint.h>
 
 typedef struct {
@@ -33,5 +32,3 @@ void enable_peripheral(peripheral_reg_t *peripheral, unsigned enable);
 void disable_peripheral(peripheral_reg_t *peripheral);
 void read_peripheral_data(const peripheral_reg_t *peripheral);
 void write_peripheral_data(peripheral_reg_t *peripheral, uint32_t data);
-void print_config_reg(const config_reg_t *config);
-void print_full_status_reg(const full_status_reg_t *status);
