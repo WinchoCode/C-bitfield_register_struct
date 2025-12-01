@@ -7,7 +7,7 @@
             "command": "mkdir",
             "args": [
                 "-p",
-                "C:/Users/edwin/gitProjects/C-ProjectTemplate/build"
+                "C:/Users/edwin/gitProjects/C-bitfield_register_struct/build"
                 //"${workspaceFolder}/build"
             ],
             "problemMatcher": []
@@ -18,14 +18,14 @@
             "command": "C:/msys64/mingw64/bin/gcc.exe",
             "args": [
                 "-g",
-                "C:/Users/edwin/gitProjects/C-ProjectTemplate/src/main.c",
-                "C:/Users/edwin/gitProjects/C-ProjectTemplate/src/**/*.c",
+                "C:/Users/edwin/gitProjects/C-bitfield_register_struct/src/main.c",
+                "C:/Users/edwin/gitProjects/C-bitfield_register_struct/src/***/**/*.c",
                 //"${workspaceFolder}/src/main.c",
                 "-I",
-                "C:/Users/edwin/gitProjects/C-ProjectTemplate/src/utilities",
+                "C:/Users/edwin/gitProjects/C-bitfield_register_struct/src/exercises",
                 //"C:/Users/edwin/gitProjects/C-ProjectTemplate/src/**",
                 "-o",
-                "C:/Users/edwin/gitProjects/C-ProjectTemplate/build/main.exe"
+                "C:/Users/edwin/gitProjects/C-bitfield_register_struct/build/main.exe"
                 //"${workspaceFolder}/build/main.exe"
             ],
             "group": {
