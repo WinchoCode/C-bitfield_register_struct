@@ -1,4 +1,5 @@
 #include "exercises/exercise1/exercise1.h"
+#include "exercises/exercise2/exercise2.h"
 #include <stdio.h>
 
 void call_exercise1(void);
@@ -16,6 +17,9 @@ int main(void) {
     switch (choice) {
     case 1:
       call_exercise1();
+      break;
+    case 2:
+      call_exercise2();
       break;
     case 0:
       printf("Exiting program.\n");
@@ -36,4 +40,15 @@ void call_exercise1(void) {
   reg.error = 1;
 
   print_status_exercise1(reg);
+}
+
+void call_exercise2(void) {
+  control_reg_t reg = {0};
+
+  set_speed(&reg, 10);
+  enable_device(&reg, 1);
+  set_interrupt(&reg, 1);
+  set_priority(&reg, 2);
+
+  print_control_reg(reg);
 }
