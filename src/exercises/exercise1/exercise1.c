@@ -1,4 +1,4 @@
-#include "exercise2.h"
+#include "exercise1.h"
 
 void print_status_exercise1(status_reg_t reg) {
   printf("Status Register:\n");
