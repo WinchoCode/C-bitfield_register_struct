@@ -1,3 +1,3 @@
-### C-ProjectTemplate
+### C-Bitfield-register-struct
 
-This project contains a template that can be used to start C projects from scratch.
+This project contains a couple of exercises to workk on the creation of bitfield register structs.
